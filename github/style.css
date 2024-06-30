@@ -1,0 +1,137 @@
+html{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.divNavegation{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin: auto;
+    width: 90%;
+}
+
+.menu{
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 10px;
+    height: 10px;
+    margin-left: 2em;
+    cursor: pointer;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+}
+
+.aboveAll{
+    margin-left: 13em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.category{
+    margin-left: 0.5em;
+    color:#fff;
+}
+
+.guide{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 5em;
+    color:#fff;
+}
+
+.shortcut{
+    margin-right: 1.5em;
+    cursor: pointer;
+}
+
+.acessBar{
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.languages{
+    cursor: default;
+    font-size: 14px;
+    color:#fff;
+}
+
+.register{
+    border-radius: 20px;
+    margin-left: 3em;
+    width: 25px;
+    cursor: pointer;
+}
+
+.summary{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+
+.buy{
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.quickAccess{
+    font-size: 25px;
+    align-items: center;
+    cursor: pointer;
+    color:#fff;
+}
+
+.search{
+    width: 90%;
+    align-items: center;
+}
+
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 65%;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+input[type=text]{
+    border-radius: 9999px;
+    padding-left: 1em;
+    border: none;
+    margin-right: 10px;
+    width: 60%;
+    color:rgb(0, 0, 0)
+}
+
+.comparison{
+    border-radius: 9999px;
+    width: 15%;
+    border: none;
+}
